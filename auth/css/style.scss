@@ -99,11 +99,11 @@ input[type=text] {
     border-bottom: 1px solid #303030;
     font-size: 16px;
     color: #303030;
-}
-
-input[type=text]:focus {
-    outline: none;
     letter-spacing: .05em;
+    border-radius: 0;
+    &:focus {
+        outline: none;
+    }
 }
 
 .no_code_text {
