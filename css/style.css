@@ -1,33 +1,43 @@
-
-
 /* fonts */
+
 @font-face {
-	font-family: 'postnobillscolomboExtrabold';
-	src: url('../fonts/postnobillscolombo-extrabold.ttf');
+    font-family: 'postnobillscolomboExtrabold';
+    src: url('../fonts/postnobillscolombo-extrabold.ttf');
 }
-p,a,h1,h2 {
+
+p,
+a,
+h1,
+h2 {
     font-family: 'Noto Sans JP', sans-serif;
+    color: #333;
 }
+
 a {
-    color: white !important;
-    text-decoration:none;
+    color: #333 !important;
+    text-decoration: none;
 }
 
 h2 {
-    font-size: calc(1.25rem + ((1vw - 5.6px) * 0.7353)); /* 20px - 30px */
+    font-size: calc(1.25rem + ((1vw - 5.6px) * 0.7353));
+    /* 20px - 30px */
     line-height: calc(1.5 * (1.25rem + ((1vw - 5.6px) * 0.7353)));
     letter-spacing: 0.2em;
     font-weight: 500;
 }
+
 p {
-    font-size: calc(0.875rem + ((1vw - 3.75px) * 0.3883)); /* 15px - 20px */
+    font-size: calc(0.875rem + ((1vw - 3.75px) * 0.3883));
+    /* 15px - 20px */
     line-height: calc(1.5 * (0.9375rem + ((1vw - 5.6px) * 0.3676)));
     letter-spacing: 0.2em;
 }
 
+
 /* css */
+
 body {
-    background: #000000;
+    background: white;
     margin: 0;
     padding: 0;
     color: #ffffff;
@@ -36,51 +46,55 @@ body {
 
 main {
     width: 100vw;
-    height: 64em;
+    height: 150vh;
     position: relative;
-    background: linear-gradient(89.71deg, #152C9E 0.2%, #772379 38.19%, #7E0427 71.64%, #A93229 99.65%);
+    background: linear-gradient(89.68deg, #91d8e5 -1.19%, #f0addb 98.27%);
     padding-top: 20vh;
-
-    padding-left: calc(4.375rem + ((1vw - 5.6px) * 42.6471)); /*70px - 650px*/
+    padding-left: calc(4.375rem + ((1vw - 5.6px) * 42.6471));
+    /*70px - 650px*/
 }
+
 main::before {
-    content:"";
+    content: "";
     position: absolute;
     bottom: 0;
     left: 0;
     width: 0;
     height: 0;
     border-style: solid;
-   
     /*ここで三角形のサイズを決める。
     必ず幅100vwにして、ブラウザサイズいっぱいにしてください。*/
-    border-width: 0 0 20em 100vw ;
-   
-    border-color: transparent transparent #000000 transparent;
+    border-width: 0 0 20em 100vw;
+    border-color: transparent transparent white transparent;
 }
+
 .main_dragon_image {
     position: absolute;
     top: -62px;
     left: 0;
     width: 25em;
 }
+
 main h1 {
     font-family: 'postnobillscolomboExtrabold';
-    font-size: calc(4.375rem + ((1vw - 5.6px) * 2.2059)); /*70px - 100px*/
+    font-size: calc(4.375rem + ((1vw - 5.6px) * 2.2059));
+    /*70px - 100px*/
     letter-spacing: calc(0.4 * (4.375rem + ((1vw - 5.6px) * 2.2059)));
     margin-left: 0;
     text-align: left;
 }
 
 .main_title {
-    text-shadow: -5px 10px 4px rgba(255, 0, 0, 0.4), 5px -7px 4px rgba(0, 194, 255, 0.4);
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     margin-bottom: 20px;
 }
+
 .main_subtitle {
     color: transparent;
     margin-top: 20px;
-    text-stroke: 0.01em #ffffff;
-    -webkit-text-stroke: 0.01em #ffffff;
+    text-stroke: 0.01em #818181;
+    -webkit-text-stroke: 0.01em #818181;
 }
 
 .scroll_div {
@@ -91,17 +105,19 @@ main h1 {
     font-size: .8em;
     line-height: 3.5em;
     letter-spacing: 0.4em;
-    border: 0.01em solid #FFFFFF;
+    background: rgba(255, 255, 255, 0.2);
     box-sizing: border-box;
     transform: rotate(90deg);
     position: absolute;
     right: 0;
     top: 700px;
 }
+
 .scroll_div p {
     margin: 0;
     font-size: 14px;
     line-height: 3.1em;
+    color: white;
 }
 
 .backgroun_circles div {
@@ -111,7 +127,9 @@ main h1 {
     filter: blur(4px);
 }
 
+
 /*「準備中」の表示*/
+
 .footer {
     position: fixed;
     left: 0;
@@ -123,9 +141,11 @@ main h1 {
     color: white;
     text-align: center;
     z-index: 20;
- }
+}
+
 
 /* header */
+
 header {
     width: 100vw;
     height: 85px;
@@ -136,11 +156,14 @@ header {
     z-index: 100;
     text-align: right;
 }
+
 header ul {
     display: flex;
     padding: 20px 50px 0;
-    justify-content: flex-end;  /* 右寄せ */
+    justify-content: flex-end;
+    /* 右寄せ */
 }
+
 header li {
     color: #ffffff;
     list-style: none;
@@ -149,17 +172,28 @@ header li {
     font-weight: normal;
     margin: auto 20px;
 }
-header li p {
+
+header li p,
+a {
     font-size: 80%;
     margin-bottom: 0px;
+    color: white;
 }
+
+header div p {
+    color: white;
+}
+
+
 /* アンダーラインの作成 */
+
 .underline {
     position: relative;
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
 }
+
 .underline::after {
     position: absolute;
     bottom: -4px;
@@ -172,86 +206,86 @@ header li p {
     transform-origin: left top;
     transition: transform .3s;
 }
+
 .underline:hover::after {
     transform-origin: right top;
     transform: scale(1, 1);
 }
 
-.change_language_div{
+.change_language_div {
     padding: 1px 7px;
     margin: 0 5px;
 }
-#change_language_button_1{
+
+#change_language_button_1 {
     border: 1px solid #ffffff;
 }
-.change_language_button{
+
+.change_language_button {
     font-size: 80%;
     margin: 0px;
 }
 
+
 /* join section */
 
-.join_section {
-
-}
+.join_section {}
 
 .join_text {
     font-family: 'postnobillscolomboExtrabold', sans-serif;
     text-align: right;
     margin: 0 calc(3.125rem + ((1vw - 5.6px) * 11.0294));
 }
+
 #join_text {
     font-size: calc(4.6875rem + ((1vw - 5.6px) * 7.7206));
     letter-spacing: calc(0.2 * (4.6875rem + ((1vw - 5.6px) * 7.7206)));
     line-height: calc(1.2 * (4.6875rem + ((1vw - 5.6px) * 7.7206)));
-    color: rgba(255, 255, 255, 0.5);
+    color: #E6E6E6;
     text-stroke: 2px solid #FFFFFF;
-    -webkit-text-stroke: .01em #FFFFFF;
+    -webkit-text-stroke: .01em #A6A6A6;
     margin-bottom: 0;
 }
+
 #online_text {
     font-size: calc(6.25rem + ((1vw - 5.6px) * 10.2941));
     letter-spacing: calc(0.2 * (6.25rem + ((1vw - 5.6px) * 10.2941)));
     line-height: calc(1.2 * (6.25rem + ((1vw - 5.6px) * 10.2941)));
-    -webkit-text-stroke: .01em #FFFFFF;
-    background: -webkit-linear-gradient(180deg, #172C9E 0%, #772378 30.52%, #AC392F 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: .01em #A6A6A6;
     line-height: 0.8em;
+    color: #E6E6E6;
 }
 
-.screenshot_section { 
+.screenshot_section {
     margin-top: 0;
     width: 100vw;
     text-align: right;
 }
+
 .start_button {
     opacity: .6;
     text-align: center;
     /* height: 2em; */
     width: 20em;
-    border: .1em solid #ffffff;
+    border: .1em solid #333;
     padding: .4em 0 .1em;
     margin: 200px auto 0;
     cursor: pointer;
 }
+
 .start_button_text {
     font-family: 'postnobillscolomboExtrabold', sans-serif;
     font-size: 1.4em;
     line-height: 2em;
     text-align: center;
     margin: 0;
-}
-.sound_bar {
-    position: absolute;
-    top: 70em;
-    left: 0;
-    height: 40vw;
+    color: #333;
 }
 
-.event_description{
+.event_description {
     text-align: center;
-    font-size: calc(0.625rem + ((1vw - 5.6px) * 0.2941)); /* 10px - 14px */
+    font-size: calc(0.625rem + ((1vw - 5.6px) * 0.2941));
+    /* 10px - 14px */
     color: #AFAFAF;
 }
 
@@ -262,11 +296,12 @@ header li p {
 }
 
 
-
 /* leader */
+
 .leader_section {
     margin-top: 200px;
 }
+
 .leader_title {
     font-weight: bold;
     text-align: center;
@@ -279,12 +314,12 @@ header li p {
     min-width: 400px;
     margin: 0 auto 40px;
 }
+
 .leader_content {
     width: 60%;
     min-width: 400px;
     margin: 0 auto;
 }
-
 
 
 /* concept_section */
@@ -293,8 +328,10 @@ header li p {
     margin-top: 200px;
     text-align: center;
 }
+
 .concept_main {
-    font-size: calc(1.875rem + ((1vw - 5.6px) * 2.2059));  /* 30px - 60px */
+    font-size: calc(1.875rem + ((1vw - 5.6px) * 2.2059));
+    /* 30px - 60px */
     line-height: calc(1.5 * (1.875rem + ((1vw - 5.6px) * 2.2059)));
     font-weight: bold;
     margin-bottom: 110px;
@@ -308,7 +345,8 @@ header li p {
     margin: 50px 0;
     font-weight: bold;
 }
-.concept_text_session{
+
+.concept_text_session {
     width: 60%;
     min-width: 400px;
     display: inline-block;
@@ -316,6 +354,7 @@ header li p {
     text-align: left;
     margin: 50px 0;
 }
+
 .concept_logo {
     width: 100vw;
     /* overflow-y: hidden; */
@@ -323,8 +362,7 @@ header li p {
     height: 40vw;
 }
 
-
-.concept_logo div:nth-child(1){
+.concept_logo div:nth-child(1) {
     position: absolute;
     top: 0;
     left: 5vw;
@@ -333,7 +371,7 @@ header li p {
     background: rgba(255, 255, 255, 0.2);
 }
 
-.concept_logo div:nth-child(2){
+.concept_logo div:nth-child(2) {
     position: absolute;
     top: 5vw;
     left: 25vw;
@@ -342,7 +380,8 @@ header li p {
     text-align: center;
     background: rgba(232, 232, 232, 0.9);
 }
-.concept_logo div:nth-child(3){
+
+.concept_logo div:nth-child(3) {
     position: absolute;
     top: 10vw;
     right: 5vw;
@@ -360,6 +399,7 @@ header li p {
 
 
 /* preview_section */
+
 .preview_section {
     margin-top: 300px;
     text-align: center;
@@ -369,6 +409,7 @@ header li p {
     font-style: italic;
     font-weight: bold;
 }
+
 .preview_section div {
     width: 60vw;
     height: 40vw;
@@ -376,24 +417,29 @@ header li p {
     margin: 100px auto;
     text-align: center;
 }
+
 .preview_section div h2 {
     line-height: 40vw;
     font-weight: bolder;
     font-style: normal;
 }
 
+
 /* contact_section */
+
 .contact_section {
     margin-top: 0;
     padding: 100px 10% 200px;
     text-align: left;
 }
-.contact_title{
+
+.contact_title {
     font-style: italic;
     font-weight: bold;
     margin-bottom: 100px;
 }
-.contact_border{
+
+.contact_border {
     margin: 400px 0 0;
     width: 100vw;
 }
@@ -405,60 +451,64 @@ header li p {
 }
 
 @media screen and (max-width: 500px) {
-    main{
+    main {
         padding-left: 10%;
     }
-    main h1{
+    main h1 {
         font-size: 40px;
         letter-spacing: 20px;
     }
-    .sound_bar{
+    .sound_bar {
         top: 55em;
     }
-    .screenshot{
+    .screenshot {
         width: 90vw;
         min-width: auto;
     }
-    .leader_section{
+    .leader_section {
         width: 80vw;
         margin: 200px auto 0;
     }
-    .leader_name{
+    .leader_name {
         width: 100%;
         min-width: auto;
     }
-    .leader_content{
+    .leader_content {
         width: 100%;
         min-width: auto;
     }
-    .concept_main{
+    .concept_main {
         margin-top: 20px;
     }
-    .concept_text_session{
+    .concept_text_session {
         width: 80%;
         min-width: auto;
         margin: auto;
     }
-    .preview_section div{
+    .preview_section div {
         width: 80vw;
         height: 40vw;
     }
-    header ul{
+    header ul {
         padding: 20px 20px 0;
     }
-    header li{
+    header li {
         margin: auto 10px;
     }
-    .contact_section{
+    .contact_section {
         padding: 60px 10% 100px;
     }
     .contact_title {
         margin-bottom: 60px;
     }
-    .underline{
+    .underline {
         display: none;
     }
-    .main_subtitle{
+    .main_subtitle {
         color: #ffffffbd;
     }
+}
+
+.contact_boder {
+    width: 100vw;
 }
