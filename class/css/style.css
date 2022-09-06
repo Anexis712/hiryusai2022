@@ -2,6 +2,12 @@ body main {
   margin: 100px 200px;
 }
 
+@media screen and (max-width: 500px) {
+  body main {
+    margin: 100px 0;
+  }
+}
+
 body main .grade_list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19,6 +25,12 @@ body main .grade_list p {
   font-size: 20px;
   font-weight: 300;
   margin: 30px 50px;
+}
+
+@media screen and (max-width: 500px) {
+  body main .grade_list p {
+    margin: 20px 30px;
+  }
 }
 
 body main .grade_list .grade_hr {
@@ -66,8 +78,23 @@ body main .same_grade_list {
           align-items: center;
 }
 
+@media screen and (max-width: 500px) {
+  body main .same_grade_list {
+    margin-top: 50px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 body main .same_grade_list .item {
   margin: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  body main .same_grade_list .item {
+    margin: 50px 20px;
+  }
 }
 
 body main .same_grade_list .item .thumbnail_pic {
