@@ -1,19 +1,12 @@
 const mainTitle = [
-    ['H▍', '　'],
-    ['HI▍', '　'],
-    ['HIR▍', '　'],
-    ['HIRY▍', '　'],
-    ['HIRYU▍', '　'],
-    ['HIRYUS▍', '　'],
-    ['HIRYUSA▍', '　'],
-    ['HIRYUSAI▍', '　'],
-    ['HIRYUSAI', 'O▍'],
-    ['HIRYUSAI', 'ON▍'],
-    ['HIRYUSAI', 'ONL▍'],
-    ['HIRYUSAI', 'ONLI▍'],
-    ['HIRYUSAI', 'ONLIN▍'],
-    ['HIRYUSAI', 'ONLINE▍'],
-    ['HIRYUSAI', 'ONLINE']
+    ['飛▍', '　'],
+    ['飛龍▍', '　'],
+    ['飛龍祭▍', '　'],
+    ['飛龍祭', '宣▍'],
+    ['飛龍祭', '宣伝▍'],
+    ['飛龍祭', '宣伝広▍'],
+    ['飛龍祭', '宣伝広場▍'],
+    ['飛龍祭', '宣伝広場'],
 ];
 
 $(window).on('load', function() {
@@ -50,3 +43,23 @@ function onload() {
     }
     return false;
 }
+
+
+
+const content_list = [{
+        'title': 'タイトルがここ',
+        'disc': '説明文ここ',
+        'grade': '0',
+        'class': '4',
+        'className': 'E',
+        'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/9kvsd7nd7Mo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    },
+    {
+        'title': 'タイトルがここ',
+        'disc': '説明文ここ',
+        'grade': '0',
+        'class': '4',
+        'className': 'E',
+        'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/9kvsd7nd7Mo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    },
+];
