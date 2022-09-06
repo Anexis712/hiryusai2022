@@ -43,23 +43,3 @@ function onload() {
     }
     return false;
 }
-
-
-
-const content_list = [{
-        'title': 'タイトルがここ',
-        'disc': '説明文ここ',
-        'grade': '0',
-        'class': '4',
-        'className': 'E',
-        'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/9kvsd7nd7Mo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-    },
-    {
-        'title': 'タイトルがここ',
-        'disc': '説明文ここ',
-        'grade': '0',
-        'class': '4',
-        'className': 'E',
-        'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/9kvsd7nd7Mo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-    },
-];

@@ -10,7 +10,7 @@ function auto_scroll(num, num2) {
 auth_user_type();
 
 function auth_user_type() {
-    var pw = localStorage.getItem(token);
+    var pw = localStorage.token;
     if (pw != '2022274274') {
         alert('認証エラー。最初からやり直してください。');
         location.href = 'https://www.hiryusai2022.tk/auth/';

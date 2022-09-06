@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js">
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HIRYUSAI ONLINE</title>
     <meta name="Keywords" content="飛龍祭,HIRYUSAI,渋渋,ONLINE,オンライン,渋谷教育学園渋谷,文化祭" />
     <meta name="description" content="HIRYUSAI ONLINEの公式ページ。渋谷教育学園渋谷中学・高等学校（渋渋）の第25回飛龍祭は、初のオンライン開催が決定。テーマは「Imagine」。パワフルで刺激的な企画が盛りだくさん！" />
+
     <!-- favicon -->
     <link rel="icon" type="image/jpg" href="https://hiryusai2022.tk/img/favicon.png">
+
     <!-- twitter cards -->
     <meta name="twitter:card" content="summary_large_image" />
     <!-- <meta name="twitter:site" content="@ユーザー名" /> -->
@@ -17,16 +19,20 @@
     <meta property="og:title" content="HIRYUSAI ONLINE" />
     <meta property="og:description" content="HIRYUSAI ONLINEの公式ページ。渋谷教育学園渋谷中学・高等学校（渋渋）の第25回飛龍祭は、初のオンライン開催が決定。今年のテーマは「Imagine」です。" />
     <meta property="og:image" content="https://hiryusai2022.tk/img/og_image.jpg" />
+
     <!-- css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" media="screen,print" />
-    <link href="../css/preview.css" rel="stylesheet" media="screen,print" />
-    <link href="../../css/common.css" rel="stylesheet" media="screen,print" />
+    <link href="css/style.css" rel="stylesheet" media="screen,print" />
+    <link href="../css/common.css" rel="stylesheet" media="screen,print" />
+
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- jquery -->
-    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../js/jquery-3.5.1.min.js"></script>
+
+    <script type="text/javascript" src="js/class_main.js"></script>
 </head>
 
 <body>
@@ -38,18 +44,18 @@
                 </a>
             </li>
             <li class="underline">
-                <a href="https://hiryusai2022.tk/works/">
-                    <p>Works</p>
+                <a href="https://hiryusai2022.tk/class/">
+                    <p>Class</p>
                 </a>
             </li>
             <li class="underline">
-                <a href="https://hiryusai2022.tk/members/">
-                    <p>Members</p>
+                <a href="https://hiryusai2022.tk/club/">
+                    <p>Club</p>
                 </a>
             </li>
             <li class="underline">
-                <a href="https://hiryusai2022.tk/live/">
-                    <p>Live</p>
+                <a href="https://hiryusai2022.tk/search/">
+                    <p>Search</p>
                 </a>
             </li>
         </ul>
@@ -66,80 +72,60 @@
                 <ul>
                     <li class="underline">
                         <a href="https://hiryusai2022.tk/top/">
-                            <p> - Home</p>
+                            <p>Home</p>
                         </a>
                     </li>
                     <li class="underline">
-                        <a href="https://hiryusai2022.tk/works/">
-                            <p> - Works</p>
+                        <a href="https://hiryusai2022.tk/class/">
+                            <p>Class</p>
                         </a>
                     </li>
                     <li class="underline">
-                        <a href="https://hiryusai2022.tk/members/">
-                            <p> - Members</p>
+                        <a href="https://hiryusai2022.tk/club/">
+                            <p>Club</p>
                         </a>
                     </li>
                     <li class="underline">
-                        <a href="https://hiryusai2022.tk/live/">
-                            <p> - Live</p>
+                        <a href="https://hiryusai2022.tk/search/">
+                            <p>Search</p>
                         </a>
                     </li>
                 </ul>
-                <p style="text-align: center; font-size: 10px; position: absolute; bottom: 40px;width: 100vw;text-align: center;">©︎ HIRYUSAI ONLINE 2020.</p>
+                <p style="text-align: center; font-size: 10px; position: absolute; bottom: 40px;width: 100vw;text-align: center;">©︎ HIRYUSAI ONLINE 2022.</p>
                 <p style="text-align: center; font-size: 10px; position: absolute; bottom: 20px;width: 100vw;text-align: center;">This web page is created by Ray O.</p>
             </nav>
         </div>
     </header>
 
-    <a href="https://hiryusai2022.tk/top/"><img src="https://hiryusai2022.tk/img/favicon.png" class="logo_icon_image"></a>
 
-    <div class="select_category_section">
-        <div class="left_section select_category_child">
-            <a href="../../works/">
-                <h1 class="text_22 hover_shadow">クラス企画</h1>
-            </a>
-        </div>
-        <div class="middle_section select_category_child">
-            <a href="../../works/#sport">
-                <h1 class="text_22 hover_shadow">部活企画</h1>
-            </a>
-        </div>
-        <div class="right_section select_category_child">
-            <a href="../../works/#volunteer">
-                <h1 class="text_22 hover_shadow">有志企画</h1>
-            </a>
-        </div>
-    </div>
-
-    <div class="search_section">
-        <div class="search_div">
-            <input type="text" class="search_works_input text_16" placeholder="企画を探す">
-            <img src="../../img/search_icon.svg" class="search_icon">
-        </div>
-    </div>
     <main>
-        <a href="../../works/">
-            <p class="go_back_button">〈 BACK</p>
-        </a>
+        <div class="grade_list">
+            <p onclick="change_grade(0)" class="grade_text_0">中１</p>
+            <div class="grade_hr"></div>
+            <p onclick="change_grade(1)" class="grade_text_1">中２</p>
+            <div class="grade_hr"></div>
+            <p onclick="change_grade(2)" class="grade_text_2">中３</p>
+            <div class="grade_hr"></div>
+            <p onclick="change_grade(3)" class="grade_text_3">高１</p>
+            <div class="grade_hr"></div>
+            <p onclick="change_grade(4)" class="grade_text_4">高２</p>
+        </div>
         <div class="video_section">
-            <div class="video_outer">
-                <img src="../img/video_background.jpg">
-                <!-- <iframe class="video_iframe" src="www.youtube.com/embed/Vw4jPLWZsTs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            <div class="iframe_outer">
+                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/7WgCFQv_rt4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            </div>
+            <div class="content_info">
+                <p class="content_class">2-3</p>
+                <p class="content_title">企画紹介動画</p>
             </div>
         </div>
-        <div class="description_section">
-            <p class="class_text">生活委員会</p>
-            <p class="works_title">渋渋生活委員会</p>
-            <p class="works_subtitle">new normal</p>
-            <div class="tag_outer">
-                <div class="tags">
-                    <p># 生活</p>
-                </div>
-            </div>
-            <p class="works_description">今年度生活委員が作成し、校内に掲示したポスターです。新しい生活様式下でも楽しく快適な渋渋生活を送ろう！</p>
+        <div class="same_grade_list">
+
+
         </div>
     </main>
-    <script src="https://hiryusai2022.tk/js/common.js"></script>
+
+
 </body>
 
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <title></title>
@@ -9,25 +10,26 @@
     <link href="../comi_style.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
-        $(function(){
-            
+        $(function() {
+
             /**入力ここから**/
             var page = 44; //ページ数
             $("title,h1").text("年刊少年ファラオⅡ2020"); //タイトル名
-            $("title").prepend("HIRYUSAI ONLINE");　//サイト名
-            $(".copy").text("HIRYUSAI ONLINE 2020");　//コピーライト
-            $(".o_button").attr("onClick", "location.href='https://hiryusai2020.jp/preview/doorknob/'");　//サイトへのリンク
+            $("title").prepend("HIRYUSAI ONLINE");　 //サイト名
+            $(".copy").text("HIRYUSAI ONLINE 2020");　 //コピーライト
+            $(".o_button").attr("onClick", "location.href='https://hiryusai2022.tk/preview/doorknob/'");　 //サイトへのリンク
             /**ここまで**/
-            
+
             /**長すぎるからh1の方のタイトル改行したいって時var/コメントアウト解除して編集**/
             //$("h1").html("サンプル<br>テキスト");
-            
-            for(var i=1; i<=page; i++){
+
+            for (var i = 1; i <= page; i++) {
                 $('#last_page').before('<div><img data-lazy="' + i + '.jpg" src="../load.gif"></div>'); //画像拡張子変更する場合はここを書き換え
             }
         });
     </script>
 </head>
+
 <body>
     <div class="slider" dir="rtl">
         <div id="first_page"></div>
@@ -40,10 +42,10 @@
             </div>
         </div>
     </div>
-    
+
     <div class="menu_box">
         <div class="menu_button">menu</div>
-        <div class="menu_show">    
+        <div class="menu_show">
             <h1></h1>
             <small>Copyright &copy; <span class="copy"></span> All Rights Reserved</small>
             <input type="button" value="操作ヘルプ" class="button p_button">
@@ -55,7 +57,7 @@
             <div class="menu_button close">close</div>
         </div>
     </div>
-    
+
     <div class="help">
         <div class="help_in">
             <div class="help_img"></div>
@@ -75,15 +77,22 @@
             </ul>
         </div>
     </div>
-    
+
     <div class="guide">
         <div class="slide-arrow prev-arrow"><span></span></div>
-        <div class="guide_yazirusi"><div class="icon"></div><div class="text"></div></div>
-        <div class="guide_yubi"><div class="icon"></div><div class="text"></div></div>
+        <div class="guide_yazirusi">
+            <div class="icon"></div>
+            <div class="text"></div>
+        </div>
+        <div class="guide_yubi">
+            <div class="icon"></div>
+            <div class="text"></div>
+        </div>
         <div class="slide-arrow next-arrow"><span></span></div>
     </div>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script src="../comic.js"></script>
 </body>
+
 </html>
