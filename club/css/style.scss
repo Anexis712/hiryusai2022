@@ -11,23 +11,26 @@ body {
         @include mq(sm) {
             margin: 100px 0;
         }
-        .grade_list {
+        .type_all {
+            margin: 40px 0;
             display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
+            justify-content: center;
             align-items: center;
-            p {
-                font-size: 20px;
-                font-weight: 300;
-                margin: 30px 50px;
-                @include mq(sm) {
-                    margin: 20px 30px;
+            background: #FCFCFC;
+            border-radius: 50px;
+            min-width: 100px;
+            .club_type,
+            .yushi_type {
+                color: #C4C4C4;
+                border-radius: 50px;
+                padding: 10px 50px;
+                p {
+                    font-weight: 500;
                 }
             }
-            .grade_hr {
-                width: 1px;
-                background-color: #AFAFAF;
-                height: 32px;
+            .selected {
+                background: linear-gradient(91.56deg, #C4E8EE 0%, #F0C3E2 106.66%);
+                color: white;
             }
         }
         .video_section {
@@ -37,8 +40,9 @@ body {
             flex-wrap: wrap;
             align-items: center;
             .content_info {
+                margin: 0 40px;
                 .content_class {
-                    font-size: 40px;
+                    font-size: 20px;
                     margin-bottom: 20px;
                     color: #AFAFAF;
                     font-weight: 700;
