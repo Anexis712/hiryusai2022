@@ -6,22 +6,11 @@ const club_content = [
         'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/nNQ2w2ArrLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
     },
 
-    {
-        'title': '3点リーダー症候群',
-        'disc': '',
-        'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/IExMNwGaDrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-    },
 
     {
         'title': '将棋部',
         'disc': '',
         'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/DNdPpaKql6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-    },
-
-    {
-        'title': '有志ミュージカル',
-        'disc': '',
-        'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/1Q9E0yYLktA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
     },
 
     {
@@ -43,11 +32,6 @@ const club_content = [
         'youtubeTag': ''
     },
 
-    {
-        'title': '渋ママコーラス隊',
-        'disc': '',
-        'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/rNNzCp0iMpc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-    },
 
 ];
 

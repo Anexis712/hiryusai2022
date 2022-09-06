@@ -1,10 +1,5 @@
 const club_content = [
 
-    {
-        'title': 'ボカロ同好会',
-        'disc': '',
-        'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/nNQ2w2ArrLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-    },
 
     {
         'title': '3点リーダー症候群',
@@ -13,34 +8,9 @@ const club_content = [
     },
 
     {
-        'title': '将棋部',
-        'disc': '',
-        'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/DNdPpaKql6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-    },
-
-    {
         'title': '有志ミュージカル',
         'disc': '',
         'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/1Q9E0yYLktA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-    },
-
-    {
-        'title': '合唱部',
-        'disc': '',
-        'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/UGz-O14jPWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-    },
-
-    {
-        'title': '折り紙研究会',
-        'disc': '',
-        'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/LRpjXaJlRic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-    },
-
-    {
-        'title': 'ボランティア部',
-        'disc': '',
-        'className': '<iframe width="560" height="315" src="https://www.youtube.com/embed/LRpjXaJlRic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
-        'youtubeTag': ''
     },
 
     {
