@@ -66,9 +66,10 @@ body {
                 text-align: center;
                 .thumbnail_pic {
                     margin: auto;
-                    width: 200px;
+                    width: 350px;
                     height: 200px;
                     background: hsl(317, 100%, 95%);
+                    object-fit: contain;
                 }
                 .item_title {
                     margin-top: 20px;

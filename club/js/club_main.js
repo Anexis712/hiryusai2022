@@ -107,7 +107,7 @@ function show_same_grade(_id, show_all) {
                     `
             <a href='./index.html?id=` + index + `'>
                 <div class="item">
-                    <img src="" class="thumbnail_pic">
+                    <img src="images/c-` + index + `.jpg" class="thumbnail_pic">
                     <p class="item_title">` + club_content[index]['title'] + `</p>
                 </div>
             </a> `;
@@ -123,7 +123,7 @@ function show_same_grade(_id, show_all) {
                     `
             <a href='./index.html?id=` + index + `'>
                 <div class="item">
-                    <img src="" class="thumbnail_pic">
+                    <img src="images/c-` + index + `.jpg" class="thumbnail_pic">
                     <p class="item_title">` + club_content[index]['title'] + `</p>
                 </div>
             </a> `;

@@ -195,7 +195,7 @@ function show_same_grade(num, _grade, _class) {
             `
         <a href='./index.html?grade=` + _grade + `?class=` + class_content[num[index]]['class'] + `'>
             <div class="item">
-                <img src="" class="thumbnail_pic">
+                <img src="images/` + _grade + '-' + class_content[num[index]]['class'] + `.jpg" class="thumbnail_pic">
                 <p class="item_title">` + gradeList[_grade] + `-` + class_content[num[index]]['className'] + `</p>
             </div>
         </a> `;
