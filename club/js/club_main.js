@@ -31,19 +31,19 @@ const club_content = [
         'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/LRpjXaJlRic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
     },
     {
-        'title': '料理部　宣伝動画',
+        'title': '料理部',
         'disc': '',
         'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/Vl6wMNy3FIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
     },
 
     {
-        'title': 'ダンス部　宣伝動画',
+        'title': 'ダンス部',
         'disc': '',
         'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/ZbRF6BX0mk8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
     },
 
     {
-        'title': '男子バスケットボール部　宣伝動画',
+        'title': '男子バスケットボール部',
         'disc': '',
         'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/sbETfcAQv-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
     },
