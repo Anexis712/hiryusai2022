@@ -20,15 +20,6 @@ const class_content = [{
     },
 
     {
-        'title': '2年B組　企画紹介動画',
-        'disc': '',
-        'grade': 4,
-        'class': 1,
-        'className': 'B',
-        'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/o-YyieGjNwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-    },
-
-    {
         'title': '1年D組　宣伝動画',
         'disc': '',
         'grade': 3,
