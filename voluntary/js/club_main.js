@@ -17,7 +17,19 @@ const club_content = [
         'title': '渋ママコーラス隊',
         'disc': '',
         'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/rNNzCp0iMpc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    }, {
+        'title': '渋オケ　宣伝動画',
+        'disc': '',
+        'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/WyK6pE21ii8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
     },
+
+
+    {
+        'title': '劇団24期　宣伝動画',
+        'disc': '',
+        'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/gpj7icKWloM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    },
+
 
 
 ];
