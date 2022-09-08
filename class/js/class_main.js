@@ -7,33 +7,8 @@ const class_content = [{
         'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/7WgCFQv_rt4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
     },
 
-    {
-        'title': '1年C組　企画紹介動画',
-        'disc': '',
-        'grade': 3,
-        'class': 2,
-        'className': 'C',
-        'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/CxUFns56EZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-    },
 
 
-    {
-        'title': '2年4組　企画紹介動画',
-        'disc': '',
-        'grade': 1,
-        'class': 3,
-        'className': '4',
-        'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/MjPEejxT1Hc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-    },
-
-    {
-        'title': '2年5組　企画紹介動画',
-        'disc': '',
-        'grade': 1,
-        'class': 4,
-        'className': '5',
-        'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/TyJmoBeKcDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-    },
 
     {
         'title': '2年1組　企画紹介動画',
@@ -80,14 +55,6 @@ const class_content = [{
         'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/XpWTX65hix8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
     },
 
-    {
-        'title': '1年1組　企画紹介動画',
-        'disc': '',
-        'grade': 0,
-        'class': 0,
-        'className': '1',
-        'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/W65d6e0p8EQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-    },
 
     {
         'title': '3年4組　宣伝動画',
@@ -97,6 +64,79 @@ const class_content = [{
         'className': '4',
         'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/KFGEUi0kzA4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
     },
+
+    {
+        'title': '1年6組　宣伝動画',
+        'disc': '',
+        'grade': 0,
+        'class': 5,
+        'className': '6',
+        'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/avpTxkHD4d4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    },
+
+    {
+        'title': '2年6組　企画紹介動画',
+        'disc': '',
+        'grade': 1,
+        'class': 5,
+        'className': '6',
+        'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/5yPWBorqjac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    },
+
+    {
+        'title': '2年B組　宣伝動画',
+        'disc': '',
+        'grade': 4,
+        'class': 1,
+        'className': 'B',
+        'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/yNE3jWEf_Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    },
+
+    {
+        'title': '3年2組　企画紹介動画',
+        'disc': '',
+        'grade': 2,
+        'class': 1,
+        'className': '2',
+        'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/HiZiICnM64o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    },
+
+    {
+        'title': '1年C組　宣伝動画',
+        'disc': '',
+        'grade': 3,
+        'class': 2,
+        'className': 'C',
+        'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/f3Jf9KB8sG0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    },
+
+    {
+        'title': '2年4組　宣伝動画',
+        'disc': '',
+        'grade': 1,
+        'class': 3,
+        'className': '4',
+        'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/_LnpQg8oXiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    },
+
+    {
+        'title': '2年5組　宣伝動画',
+        'disc': '',
+        'grade': 1,
+        'class': 4,
+        'className': '5',
+        'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/GYodfYRDKZw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    },
+    {
+        'title': '1年1組　企画紹介動画',
+        'disc': '',
+        'grade': 0,
+        'class': 0,
+        'className': '1',
+        'youtubeTag': '<iframe width="560" height="315" src="https://www.youtube.com/embed/kGGQYc0uyWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    },
+
+
 ];
 
 getData();
