@@ -114,4 +114,8 @@ body main .same_grade_list .item .item_title {
   color: #AFAFAF;
   font-weight: 400;
 }
+
+.grade_list p {
+  cursor:pointer
+}
 /*# sourceMappingURL=style.css.map */
